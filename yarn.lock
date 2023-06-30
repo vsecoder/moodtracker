@@ -97,6 +97,13 @@
     snakecase-keys "3.2.1"
     tslib "2.4.1"
 
+"@clerk/localizations@^1.22.0":
+  version "1.22.0"
+  resolved "https://registry.npmjs.org/@clerk/localizations/-/localizations-1.22.0.tgz"
+  integrity sha512-iCU3ccNSOTjg8QMfwq6jkM3/fuF2jxuwOFDt/8/TFNHyemWFpqpAA5lpqJeS7G1nl0lLM23643DUd5JdGhri/Q==
+  dependencies:
+    "@clerk/types" "^3.46.1"
+
 "@clerk/nextjs@^4.21.12":
   version "4.21.12"
   resolved "https://registry.npmjs.org/@clerk/nextjs/-/nextjs-4.21.12.tgz"
@@ -117,6 +124,11 @@
     glob-to-regexp "0.4.1"
     js-cookie "3.0.1"
     swr "1.3.0"
+
+"@clerk/themes@^1.7.5":
+  version "1.7.5"
+  resolved "https://registry.npmjs.org/@clerk/themes/-/themes-1.7.5.tgz"
+  integrity sha512-kIdCIBSCp6t1saGAzbelcfZi5P+L3+CuVFwSjpulwGTRxeOOs/S8hB4CAHVbTwfxPw5Ms+AnN4dXJKHjSnxPIg==
 
 "@clerk/types@^3.46.1":
   version "3.46.1"
@@ -1421,7 +1433,7 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chart.js@^4.1.1, chart.js@^4.3.0:
+chart.js@^4.0.0, chart.js@^4.1.1:
   version "4.3.0"
   resolved "https://registry.npmjs.org/chart.js/-/chart.js-4.3.0.tgz"
   integrity sha512-ynG0E79xGfMaV2xAHdbhwiPLczxnNNnasrmPEXriXsPJGjmhOBYzFVEsB65w2qMDz+CaBJJuJD0inE/ab/h36g==

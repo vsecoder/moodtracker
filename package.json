@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/localizations": "^1.22.0",
     "@clerk/nextjs": "^4.21.12",
+    "@clerk/themes": "^1.7.5",
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
     "@mantine/core": "6.0.0",
@@ -17,7 +19,7 @@
     "@mantine/hooks": "6.0.0",
     "@mantine/next": "6.0.0",
     "@tabler/icons-react": "^2.23.0",
-    "chart.js": "^4.3.0",
+    "chart.js": "^4.0.0",
     "firebase": "^9.23.0",
     "moment": "^2.29.4",
     "next": "13.2.3",
