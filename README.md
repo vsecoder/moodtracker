@@ -1,17 +1,20 @@
 # Mood Tracker
 
-[![wakatime](https://wakatime.com/badge/user/17993a3c-e23b-43ce-a9c6-84b6248d1411/project/4721a16a-d0de-43f4-a904-7e529178b4ed.svg)](https://wakatime.com/badge/user/17993a3c-e23b-43ce-a9c6-84b6248d1411/project/4721a16a-d0de-43f4-a904-7e529178b4ed) 
+[![wakatime](https://wakatime.com/badge/user/17993a3c-e23b-43ce-a9c6-84b6248d1411/project/4721a16a-d0de-43f4-a904-7e529178b4ed.svg)](https://wakatime.com/badge/user/17993a3c-e23b-43ce-a9c6-84b6248d1411/project/4721a16a-d0de-43f4-a904-7e529178b4ed) [![DeepSource](https://app.deepsource.com/gh/vsecoder/moodtracker.svg/?label=active+issues&show_trend=true&token=CCp0oNIE-2QarcgEpbywV4GH)](https://app.deepsource.com/gh/vsecoder/moodtracker/?ref=repository-badge)
 
 ## Description
 
 This is a mood tracker app that allows users to track their mood and activities.
 
+## Screenshots
+
+(coming soon, now project is in development)
 
 ## Features
 
 * ![React.js](https://img.shields.io/badge/18.2.0-ReactJS-blue) for the front-end
 * ![Next.js](https://img.shields.io/badge/13.2.3-NextJS-yellow) for server-side rendering
-* ![FireBase](https://img.shields.io/badge/13.2.3-NextJS-red) as a database
+* ![FireBase](https://img.shields.io/badge/^9.23.0-FireBase-red) as a database
 * ![Clerk](https://img.shields.io/badge/^4.21.12-Clerk-purple) for authentication
 * ![Mantine](https://img.shields.io/badge/6.0.0-Mantine-blue) for styling
 * ![Chart.js](https://img.shields.io/badge/3.5.1-ChartJS-green) for data visualization

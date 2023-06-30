@@ -1,11 +1,8 @@
-import { Group } from "@mantine/core";
-import { UserButton } from "@clerk/nextjs";
+import { HeaderMiddle } from '../components/header';
 
 
 export default function IndexPage() {
   return (
-    <Group mt={50} position="center">
-      <UserButton afterSignOutUrl="/" />
-    </Group>
+    <HeaderMiddle />
   );
 }
