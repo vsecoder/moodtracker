@@ -29,7 +29,7 @@ export function HeaderMiddle() {
     const { classes, cx } = useStyles();
 
     return (
-        <Header height={56} mb={120}>
+        <Header height={56} mb={70}>
             <Container className={classes.inner}>
                 <MoodTrackerLogo />
 
