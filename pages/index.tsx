@@ -10,6 +10,9 @@ export default function IndexPage() {
       <HeaderMiddle />
       <Container>
         <Tiles />
+
+        <h1>Графики:</h1>
+        <p>Будут скоро!</p>
       </Container>
     </>
   );

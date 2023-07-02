@@ -1,4 +1,4 @@
-import { getAuth, clerkClient } from "@clerk/nextjs/server";
+import { getAuth, clerkClient, Clerk } from "@clerk/nextjs/server";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 
