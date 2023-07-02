@@ -21,6 +21,7 @@
     "@mantine/next": "6.0.0",
     "@tabler/icons-react": "^2.23.0",
     "chart.js": "^4.0.0",
+    "dayjs": "^1.11.9",
     "firebase": "^9.23.0",
     "moment": "^2.29.4",
     "next": "13.2.3",
