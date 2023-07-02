@@ -66,7 +66,7 @@ export function Tiles() {
                 setLoading(false);
             }
             )
-    }, [isLoaded])
+    }, [userId, isLoaded])
 
     return (
         <>
