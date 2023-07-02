@@ -8,7 +8,7 @@ This is a mood tracker app that allows users to track their mood and activities.
 
 ## Screenshots
 
-(coming soon, now project is in development)
+![Screenshot 1](https://raw.githubusercontent.com/vsecoder/moodtracker/main/.github/1.png)
 
 ## Features
 
