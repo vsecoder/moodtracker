@@ -26,12 +26,12 @@ const mood_colors: any = {
 }
 
 // кол-во дней в году
-const daysInYear = moment().isLeapYear() ? 366 : 365;
+const days = 100;
 
 // массив дней в году
-const tiles_default = Array.from({ length: daysInYear }, (_, i) => {
+const tiles_default = Array.from({ length: days }, (_, i) => {
     return {
-        date: moment().date(i - 363 + 1).format("YYYY-MM-DD"),
+        date: moment().date(i - 98 + 1).format("YYYY-MM-DD"),
         // random mood
         mood: "neutral",
         description: "",
@@ -70,7 +70,7 @@ export function Tiles() {
 
     return (
         <>
-            <h1>Плитка настроения:</h1>
+            <h1>Плитка:</h1>
             {/* Mood tiles */}
             {loading ? (
                 <Skeleton>

@@ -31,6 +31,17 @@ export function Tile(props: TileProps) {
     const [mood, setMood] = useState(props.mood);
     const [description, setDescription] = useState(props.description);
 
+    moment.locale('ru');
+    moment.updateLocale('ru', {
+        months: [
+            "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+            "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь",
+            "Декабрь"
+        ]
+    });
+
+    const readableDate = moment(props.date).format("LL")
+
     const updateMood = () => {
         fetch(`/api/pull?userId=${userId}&date=${props.date}&mood=${mood}&description=${description}`)
             .then(res => res.json())
@@ -41,7 +52,7 @@ export function Tile(props: TileProps) {
 
     return (
         <>
-            <Modal opened={opened} onClose={close} title={props.date}>
+            <Modal opened={opened} onClose={close} title={readableDate}>
                 <NativeSelect
                     data={["happy", "sad", "angry", "neutral"]}
                     label="Выберите настроение"
@@ -75,7 +86,7 @@ export function Tile(props: TileProps) {
                 </Button>
             </Modal>
 
-            <Tooltip label={props.date}>
+            <Tooltip label={readableDate}>
                 {/* if day is now, radius 100 */}
                 <ColorSwatch
                     color={mood_colors[props.mood]}

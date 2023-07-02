@@ -18,7 +18,7 @@ export default function App(props: AppProps) {
 			localization={ruRU}
 		>
 			<Head>
-				<title>Page title</title>
+				<title>MoodTracker</title>
 				<link rel="shortcut icon" href="/favicon.svg" />
 				<meta
 					name="viewport"
